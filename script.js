@@ -52,31 +52,31 @@ async function updateWeather (){
 function updateWeatherIcon(weatherCondition) {
     switch (weatherCondition) {
         case "Clouds":
-            weatherIcon.src = "../images/clouds.png";
+            weatherIcon.src = "images/clouds.png";
             break;
         case "Clear":
-            weatherIcon.src = "../images/sun.png";
+            weatherIcon.src = "images/sun.png";
             break;
         case "Rain":
-            weatherIcon.src = "../images/rain.png";
+            weatherIcon.src = "images/rain.png";
             break;
         case "Drizzle":
-            weatherIcon.src = "../images/drizzle.png";
+            weatherIcon.src = "images/drizzle.png";
             break;
         case "Mist":
-            weatherIcon.src = "../images/mist.png";
+            weatherIcon.src = "images/mist.png";
             break;
         case "Snow":
-            weatherIcon.src = "../images/snow.png";
+            weatherIcon.src = "images/snow.png";
             break;
         case "Haze":
-            weatherIcon.src = "../images/haze.png";
+            weatherIcon.src = "images/haze.png";
             break;
         case "Smoke":
-            weatherIcon.src = "../images/smoke.png";
+            weatherIcon.src = "images/smoke.png";
             break;
         default:
-            weatherIcon.src = "../images/mist.png";
+            weatherIcon.src = "images/mist.png";
             break;
     }
 
